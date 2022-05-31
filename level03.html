@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+        <meta charset="UTF-8">
+        <title>Ascii World Adventure</title>
+        <meta content='width=100%, user-scalable=no, initial-scale=1.0' name='viewport' />
+
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="gameElements">
+            <div id="gameBrackground"></div>
+            <div id="timer">
+                <label>Fase: </label>
+                <label id="level"></label><br/>
+                <label>Tempo: </label>
+                <label id="time"></label><br/>
+                <label>Estágio: </label>
+                <label id="stage"></label><br/>
+            </div>
+            <div id="ufo" class="hidable enemy"><img src="img/enemies/ufo01.gif" id="ufoImg" /></div>
+            <div id="abduction" class="hidable"><img src="img/enemies/abduction01.gif" id="abductionImg" /></div>
+            <div id="pig" class="hidable enemy"><img src="img/enemies/runningPig01.gif" id="pigImg" /></div>
+            <div id="alien" class="hidable enemy"><img src="img/enemies/walkingAlien01.gif" id="alienImg" /></div>
+            <div id="bigBoss" class="hidable"><img src="img/enemies/bigBoss01.gif" id="bigBossImg" /></div>
+            <div id="dialogBalloon" class="hidable"></div>
+            <div id="charman" class="charman"><img src="img/charman/charman-01.png" id="charmanImg" /></div>
+            <div class="ufoShot hidable" id="ufoShot"></div>
+            <div class="charShot hidable" id="charShot"></div>
+            <div id="boom" class="hidable"><img src="" id="boomImg" /></div>
+
+            <div class="controller">
+                <div id="btnAttack" class="btn forceRight fire"
+                    ontouchstart="events.tapAttack()"
+                    ontouchend="events.tapStop('btnAttack')">
+                </div>
+                <div id="btnJump" class="btn forceRight jump"
+                    ontouchstart="events.tapJump()"
+                    ontouchend="events.tapStop('btnJump')">
+                </div>
+                <div id="btnLeft" class="btn forceLeft moveLeft"
+                    ontouchstart="events.tapMoveLeft()"
+                    ontouchend="events.tapStop('btnLeft')">
+                </div>
+                <div id="btnRight" class="btn forceLeft moveRight"
+                    ontouchstart="events.tapMoveRight()"
+                    ontouchend="events.tapStop('btnRight')">
+                </div>
+            </div>
+        </div>
+        <div id="startGame" onclick="game.init()"><img src="img/game-start.gif" id="startGameImg" /></div>
+        <div id="gameOver" onclick="events.reset()">
+            <!--label>Estágio alcançado: </label>
+            <label id="lastStage"></label><br/>
+            <label>Tempo Total: </label>
+            <label id="gameTime"></label-->
+        </div>
+        <div id="levelScore" onclick="game.nextLevel()">
+            <label>Estágio alcançado: </label>
+            <label id="lastStage"></label><br/>
+            <label>Tempo Total: </label>
+            <label id="gameTime"></label>
+            <img src="img/game-start.gif" id="startGameImg" />
+        </div>
+    </body>
+    <!-- game js files begin -->
+    <script type="text/javascript" src="js/globals.js"></script>
+    <script type="text/javascript" src="js/level03.js"></script>
+    <!--script type="text/javascript" src="js/dialogs02.js"></script-->
+    <script type="text/javascript" src="js/setup.js"></script>
+    <script type="text/javascript" src="js/display.js"></script>
+    <script type="text/javascript" src="js/calculator.js"></script>
+    <script type="text/javascript" src="js/events.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/start-app.js"></script>
+    <!-- game js files end -->
+</html>
