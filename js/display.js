@@ -328,6 +328,7 @@ function Display() {
     }
 
     function standingPig(params) {
+        console.log('-> ', params);
         at(pig, params.left, params.top);
         if (params.callback) params.callback();
     }
@@ -626,7 +627,7 @@ function Display() {
     }
 
     function charmanIdle() {
-        charmanImg.setAttribute('src', 'img/charman/charman-01.png');
+        charmanImg.setAttribute('src', 'img/charman/mimmi-01.png');
     }
 
     function shoot(callback) {
@@ -662,14 +663,14 @@ function Display() {
                 handleSwimmingImg();
                 return;
             }
-            charmanImg.setAttribute('src', 'img/charman/charman-01.png');
+            charmanImg.setAttribute('src', 'img/charman/mimmi-01.png');
             setTimeout(setCharmanBackToIdle, 50);
         }
     }
 
     function handleRunninImg() {
-        if (!actions.jumping && charmanImg.getAttribute('src') != 'img/charman/charman-run.gif') {
-            charmanImg.setAttribute('src', 'img/charman/charman-run.gif');
+        if (!actions.jumping && charmanImg.getAttribute('src') != 'img/charman/mimmi-walk-01.gif') {
+            charmanImg.setAttribute('src', 'img/charman/mimmi-walk-01.gif');
             charmanImg.style.width = '100%';
             charmanImg.style.height = '100%';
             charmanImg.style.paddingTop = '0%';

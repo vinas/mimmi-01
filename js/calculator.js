@@ -80,7 +80,10 @@ function Calculator() {
                 && topPos >= CHARBASEFLOOR
                 && (
                     isAllInSection()
-                    || mapArr[floorIndex+1][3] == 'hole'
+                    || (
+                        mapArr[floorIndex+1] &&
+                        mapArr[floorIndex+1][3] == 'hole'
+                    )
                 )
             );
     }
@@ -172,7 +175,7 @@ function Calculator() {
 
     function isRightFloorHigherThanCharTop() {
         var currFloorBase = (mapArr[floorIndex]) ? mapArr[floorIndex][2] : 0,
-            nextFloorBase = (leftPos < 95) ? mapArr[getFloorIndexForPos(leftPos + FLOORHORTOLERANCE)][2] : currFloorBase;
+            nextFloorBase = (leftPos < 100 - FLOORHORTOLERANCE) ? mapArr[getFloorIndexForPos(leftPos + FLOORHORTOLERANCE)][2] : currFloorBase;
             return currFloorBase < nextFloorBase && isCharmanHigherThanNextFloor(nextFloorBase);
     }
 

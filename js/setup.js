@@ -56,10 +56,10 @@ function Setup() {
     function loadContent()
     {
      var ImgsToPreload = new Array(
-            'img/charman/charman-01.png',
+            'img/charman/mimmi-01.png',
             'img/charman/charman-bow.gif',
             'img/charman/charman-jump.gif',
-            'img/charman/charman-run.gif',
+            'img/charman/mimmi-walk-01.gif',
             'img/charman/charman-swim.gif',
             'img/interactions/explosion01.gif'
         );

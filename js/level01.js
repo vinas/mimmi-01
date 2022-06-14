@@ -42,7 +42,7 @@ function Level() {
                 ['plataform02.png', 'single', 2, 'solid'],
                 ['hole01.png', 'double', 0, 'hole'],
                 ['hole01.png', 'double', 0, 'hole'],
-                ['hole01.png', 'single', 0, 'hole'],
+                ['floor02.png', 'single', 0, 'solid'],
                 ['floor02.png', 'single', 0, 'solid'],
                 ['floor01.png', 'double', 0, 'solid']
             ],
@@ -108,32 +108,32 @@ function Level() {
                 ['plataform01.png', 'single', 1, 'solid'],
                 ['floor02.png', 'single', 0, 'solid']
             ],
-            // // #8
-            // [
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['hole01.png', 'single', 0, 'hole'],
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['hole01.png', 'single', 0, 'hole'],
-            //     ['plataform01.png', 'single', 1, 'solid'],
-            //     ['plataform01.png', 'single', 1, 'solid'],
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['hole01.png', 'double', 0, 'hole'],
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['floor01.png', 'double', 0, 'solid']
-            // ],
-            // // #9
-            // [
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['hole01.png', 'double', 0, 'hole'],
-            //     ['plataform01.png', 'single', 1, 'solid'],
-            //     ['plataform01.png', 'single', 1, 'solid'],
-            //     ['hole01.png', 'double', 0, 'hole'],
-            //     ['plataform01.png', 'single', 1, 'solid'],
-            //     ['plataform01.png', 'single', 1, 'solid'],
-            //     ['hole01.png', 'double', 0, 'hole'],
-            //     ['floor01.png', 'double', 0, 'solid']
-            // ],
+            // #8
+            [
+                ['floor01.png', 'double', 0, 'solid'],
+                ['hole01.png', 'single', 0, 'hole'],
+                ['floor01.png', 'double', 0, 'solid'],
+                ['hole01.png', 'single', 0, 'hole'],
+                ['plataform01.png', 'single', 1, 'solid'],
+                ['plataform01.png', 'single', 1, 'solid'],
+                ['floor01.png', 'double', 0, 'solid'],
+                ['hole01.png', 'double', 0, 'hole'],
+                ['floor01.png', 'double', 0, 'solid'],
+                ['floor01.png', 'double', 0, 'solid']
+            ],
+            // #9
+            [
+                ['floor01.png', 'double', 0, 'solid'],
+                ['floor01.png', 'double', 0, 'solid'],
+                ['hole01.png', 'double', 0, 'hole'],
+                ['plataform01.png', 'single', 1, 'solid'],
+                ['plataform01.png', 'single', 1, 'solid'],
+                ['hole01.png', 'double', 0, 'hole'],
+                ['plataform01.png', 'single', 1, 'solid'],
+                ['plataform01.png', 'single', 1, 'solid'],
+                ['hole01.png', 'double', 0, 'hole'],
+                ['floor01.png', 'double', 0, 'solid']
+            ],
             // #10
             [
                 ['floor01.png', 'double', 0, 'solid'],
@@ -147,46 +147,46 @@ function Level() {
                 ['plataform01.png', 'single', 1, 'solid'],
                 ['floor01.png', 'double', 0, 'solid']
             ],
-            // // #11
-            // [
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['hole01.png', 'single', 0, 'hole'],
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['hole01.png', 'single', 0, 'hole'],
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['hole01.png', 'single', 0, 'hole'],
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['hole01.png', 'single', 0, 'hole'],
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['floor01.png', 'double', 0, 'solid']
-            // ],
-            // // #12
-            // [
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['plataform02.png', 'single', 2, 'solid'],
-            //     ['hole01.png', 'double', 0, 'hole'],
-            //     ['plataform02.png', 'single', 2, 'solid'],
-            //     ['hole01.png', 'double', 0, 'hole'],
-            //     ['plataform02.png', 'single', 2, 'solid'],
-            //     ['hole01.png', 'double', 0, 'hole'],
-            //     ['plataform02.png', 'single', 2, 'solid'],
-            //     ['hole01.png', 'double', 0, 'hole'],
-            //     ['plataform02.png', 'single', 2, 'solid'],
-            //     ['floor02.png', 'single', 0, 'solid']
-            // ],
-            // // #13
-            // [
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['floor01.png', 'double', 0, 'solid'],
-            //     ['hole01.png', 'double', 0, 'hole'],
-            //     ['plataform01.png', 'single', 1, 'solid'],
-            //     ['plataform01.png', 'single', 1, 'solid'],
-            //     ['plataform02.png', 'single', 2, 'solid'],
-            //     ['hole01.png', 'single', 0, 'hole'],
-            //     ['hole01.png', 'double', 0, 'hole'],
-            //     ['hole01.png', 'double', 0, 'hole'],
-            //     ['floor01.png', 'double', 0, 'solid']
-            // ],
+            // #11
+            [
+                ['floor01.png', 'double', 0, 'solid'],
+                ['hole01.png', 'single', 0, 'hole'],
+                ['floor01.png', 'double', 0, 'solid'],
+                ['hole01.png', 'single', 0, 'hole'],
+                ['floor01.png', 'double', 0, 'solid'],
+                ['hole01.png', 'single', 0, 'hole'],
+                ['floor01.png', 'double', 0, 'solid'],
+                ['hole01.png', 'single', 0, 'hole'],
+                ['floor01.png', 'double', 0, 'solid'],
+                ['floor01.png', 'double', 0, 'solid']
+            ],
+            // #12
+            [
+                ['floor01.png', 'double', 0, 'solid'],
+                ['plataform02.png', 'single', 2, 'solid'],
+                ['hole01.png', 'double', 0, 'hole'],
+                ['plataform02.png', 'single', 2, 'solid'],
+                ['hole01.png', 'double', 0, 'hole'],
+                ['plataform02.png', 'single', 2, 'solid'],
+                ['hole01.png', 'double', 0, 'hole'],
+                ['plataform02.png', 'single', 2, 'solid'],
+                ['hole01.png', 'double', 0, 'hole'],
+                ['plataform02.png', 'single', 2, 'solid'],
+                ['floor02.png', 'single', 0, 'solid']
+            ],
+            // #13
+            [
+                ['floor01.png', 'double', 0, 'solid'],
+                ['floor01.png', 'double', 0, 'solid'],
+                ['hole01.png', 'double', 0, 'hole'],
+                ['plataform01.png', 'single', 1, 'solid'],
+                ['plataform01.png', 'single', 1, 'solid'],
+                ['plataform02.png', 'single', 2, 'solid'],
+                ['hole01.png', 'single', 0, 'hole'],
+                ['hole01.png', 'double', 0, 'hole'],
+                ['hole01.png', 'double', 0, 'hole'],
+                ['floor01.png', 'double', 0, 'solid']
+            ],
             // #14
             [
                 ['floor01.png', 'double', 0, 'solid'],
@@ -244,7 +244,7 @@ function Level() {
             },
             // #2
             {
-                2: {
+                5: {
                     onlyOnce: true,
                     triggered: false,
                     actions: [
@@ -283,7 +283,7 @@ function Level() {
             },
             // #3
             {
-                2: {
+                5: {
                     onlyOnce: true,
                     triggered: false,
                     actions: [
@@ -471,51 +471,51 @@ function Level() {
                     ]
                 }
             },
-            // // #8
-            // {
-            //     10: {
-            //         onlyOnce: true,
-            //         triggered: false,
-            //         actions: [
-            //             display.ufoAttack01
-            //         ],
-            //         params: [
-            //             {
-            //                 left: 72,
-            //                 top: 46
-            //             }
-            //         ]
-            //     }
-            // },
-            // // #9
-            // {
-            //     10: {
-            //         onlyOnce: true,
-            //         triggered: false,
-            //         actions: [
-            //             display.ufoAttack01
-            //         ],
-            //         params: [
-            //             {
-            //                 left: 72,
-            //                 top: 36
-            //             }
-            //         ]
-            //     },
-            //     48: {
-            //         onlyOnce: true,
-            //         triggered: false,
-            //         actions: [
-            //             display.ufoAttack01
-            //         ],
-            //         params: [
-            //             {
-            //                 left: 80,
-            //                 top: 46
-            //             }
-            //         ]
-            //     },
-            // },
+            // #8
+            {
+                10: {
+                    onlyOnce: true,
+                    triggered: false,
+                    actions: [
+                        display.ufoAttack01
+                    ],
+                    params: [
+                        {
+                            left: 72,
+                            top: 46
+                        }
+                    ]
+                }
+            },
+            // #9
+            {
+                10: {
+                    onlyOnce: true,
+                    triggered: false,
+                    actions: [
+                        display.ufoAttack01
+                    ],
+                    params: [
+                        {
+                            left: 72,
+                            top: 36
+                        }
+                    ]
+                },
+                48: {
+                    onlyOnce: true,
+                    triggered: false,
+                    actions: [
+                        display.ufoAttack01
+                    ],
+                    params: [
+                        {
+                            left: 80,
+                            top: 46
+                        }
+                    ]
+                },
+            },
             // #10
             {
                 2: {
@@ -542,63 +542,63 @@ function Level() {
                     ]
                 }
             },
-            // // #11
-            // {
-            //     10: {
-            //         onlyOnce: true,
-            //         triggered: false,
-            //         actions: [
-            //             display.ufoAttack01
-            //         ],
-            //         params: [
-            //             {
-            //                 left: 72,
-            //                 top: 30
-            //             }
-            //         ]
-            //     },
-            //     45: {
-            //         onlyOnce: true,
-            //         triggered: false,
-            //         actions: [
-            //             display.ufoAttack01
-            //         ],
-            //         params: [
-            //             {
-            //                 left: 80,
-            //                 top: 46
-            //             }
-            //         ]
-            //     }
-            // },
-            // // #12
-            // {},
-            // // #13
-            // {
-            //     63: {
-            //         onlyOnce: false,
-            //         triggered: false,
-            //         actions: [
-            //             display.ufoIn
-            //         ],
-            //         params: [
-            //             {
-            //                 left: 80,
-            //                 top: 23
-            //             }
-            //         ]
-            //     },
-            //     80: {
-            //         onlyOnce: true,
-            //         triggered: false,
-            //         actions: [
-            //             display.ufoOut
-            //         ],
-            //         params: [
-            //             {}
-            //         ]
-            //     }
-            // },
+            // #11
+            {
+                10: {
+                    onlyOnce: true,
+                    triggered: false,
+                    actions: [
+                        display.ufoAttack01
+                    ],
+                    params: [
+                        {
+                            left: 72,
+                            top: 30
+                        }
+                    ]
+                },
+                45: {
+                    onlyOnce: true,
+                    triggered: false,
+                    actions: [
+                        display.ufoAttack01
+                    ],
+                    params: [
+                        {
+                            left: 80,
+                            top: 46
+                        }
+                    ]
+                }
+            },
+            // #12
+            {},
+            // #13
+            {
+                63: {
+                    onlyOnce: false,
+                    triggered: false,
+                    actions: [
+                        display.ufoIn
+                    ],
+                    params: [
+                        {
+                            left: 80,
+                            top: 23
+                        }
+                    ]
+                },
+                80: {
+                    onlyOnce: true,
+                    triggered: false,
+                    actions: [
+                        display.ufoOut
+                    ],
+                    params: [
+                        {}
+                    ]
+                }
+            },
             // #14
             {
                 2: {
